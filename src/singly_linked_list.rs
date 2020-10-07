@@ -1,3 +1,5 @@
+use std::ops::Deref;
+
 pub struct Node<T> {
 	pub elem: T,
 	pub next: Option<Box<Node<T>>>
